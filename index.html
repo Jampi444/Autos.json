@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+
+    <title>Autos Colombia Jean Paul </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+<header>
+
+</header>
+    
+<section>
+    
+</section>
+
+<script>
+
+    async function rellenarDatos() {
+
+        const requestURL = 'vehiculos.json';
+        const request = new Request(requestURL);
+
+        const response = await fetch(request);
+        const vehiculosText = await response.text();
+
+        const vehiculos = JSON.parse(vehiculosText);
+        rellenarHeader(vehiculos);
+        rellenarVehiculos(vehiculos);
+
+    }
+
+    function rellenarHeader(obj) {
+        const header = document.querySelector('header');
+        const h1Vehiculos = document.createElement('h1');
+        h1Vehiculos.textContent = obj.nombreConcecionario;
+        header.appendChild(h1Vehiculos);
+
+        const pVehiculos = document.createElement('p');
+        pVehiculos.textContent = `Ubicado en: ${obj.ubicado} // Creado en el año: ${obj.creado}`;
+        header.appendChild(pVehiculos);
+    }
+
+    function rellenarVehiculos(obj) {
+        const section = document.querySelector('section');
+        const vehiculos = obj.villianSquadMembers;
+
+        for (const vehiculo of vehiculos) {
+            
+            const articuloVehiculos = document.createElement('article');
+            const h2Vehiculos = document.createElement('h2');
+            const pVehiculos1 = document.createElement('p');
+            const pVehiculos2 = document.createElement('p');
+            const pVehiculos3 = document.createElement('p');
+            const listaVehiculos = document.createElement('ul');
+            const imagen = document.createElement('img');
+
+            h2Vehiculos.textContent = vehiculo.nombreVehiculo;
+            pVehiculos1.textContent = `Modelo: ${vehiculo.marcaVehiculo}`;
+            pVehiculos2.textContent = `Kilometros: ${vehiculo.kilometrosUso}`;
+            pVehiculos3.textContent = 'Caracteristicas:';
+
+            const caracteristicasVehi = vehiculo.caracteristicas;
+            for (const caracteristica of caracteristicasVehi) {
+                const listaVehi = document.createElement('li');
+                listaVehi.textContent = caracteristica;
+                listaVehiculos.appendChild(listaVehi);
+            }
+
+            articuloVehiculos.appendChild(h2Vehiculos);
+            articuloVehiculos.appendChild(pVehiculos1);
+            articuloVehiculos.appendChild(pVehiculos2);
+            articuloVehiculos.appendChild(pVehiculos3);
+            articuloVehiculos.appendChild(listaVehiculos);
+
+            section.appendChild(articuloVehiculos);
+        }
+    }
+
+    rellenarDatos();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+    "nombreConcecionario": "Concecionario Jean Paul",
+    "ubicado": "Miami",
+    "creado": 2023,
+    "villianSquadMembers": [
+        {
+            "nombreVehiculo": "Ford Mustang",
+            "kilometrosUso": 100,
+            "marcaVehiculo": "K3 345",
+            "caracteristicas": [
+                "Precio: $1000000",
+                "km/h: 300",
+                "0 - 100: 17 seg"  
+            ]
+        },
+        {
+            "nombreVehiculo": "Aston Martin",
+            "kilometrosUso": 2000,
+            "marcaVehiculo": "54 jdke 4",
+            "caracteristicas": [
+                "Precio: $2394882",
+                "km/h: 400",
+                "0 - 100: 5 seg"
+            ]
+        },
+        {
+            "nombreVehiculo": "Lamborghini",
+            "kilometrosUso": 1232,
+            "marcaVehiculo": "Uracan",
+            "caracteristicas": [
+                "Precio: $3000300",
+                "km/h: 400",
+                "0 - 100: 5 seg"        
+            ]
+        },
+        {
+            "nombreVehiculo": "Toyota",
+            "kilometrosUso": 457,
+            "marcaVehiculo": "523 air",
+            "caracteristicas": [
+                "Precio: $200023",
+                "km/h: 150",
+                "0 - 100: 15 seg"
+            ]
+        },
+        {
+            "nombreVehiculo": "Mc claren",
+            "kilometrosUso": 2323,
+            "marcaVehiculo": "Max 32",
+            "caracteristicas": [
+                "Precio: $45000000",
+                "km/h: 450",
+                "0 - 100: 3 seg"
+            ]
+        },
+        {
+            "nombreVehiculo": "BMW",
+            "kilometrosUso": 20,
+            "marcaVehiculo": "porta 343",
+            "caracteristicas": [
+                "Precio: $9000320",
+                "km/h: 300",
+                "0 - 100: 10 seg"     
+            ]
+        },
+        {
+            "nombreVehiculo": "Ford",
+            "kilometrosUso": 440,
+            "marcaVehiculo": "278 jd",
+            "caracteristicas": [
+                "Precio: $2002310 ",
+                "km/h: 100",
+                "0 - 100: 13 seg"  
+            ]
+        },
+        {
+            "nombreVehiculo": "Rivian",
+            "kilometrosUso": 0,
+            "marcaVehiculo": "7D 44f",
+            "caracteristicas": [
+                "Precio: $4030400",
+                "km/h: 200",
+                "0 - 100: 19 seg"  
+            ]
+        },
+        {
+            "nombreVehiculo": "Mazda",
+            "kilometrosUso": 0,
+            "marcaVehiculo": "700 volve",
+            "caracteristicas": [
+                "Precio: $7000000",
+                "km/h: 80",
+                "0 - 100: 14 seg"  
+            ]
+        }
+        
+    ]
+}

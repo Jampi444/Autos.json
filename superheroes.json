@@ -1,0 +1,89 @@
+{
+  "squadName": "Super Hero Squad",
+  "homeTown": "Metro City",
+  "formed": 2016,
+  "secretBase": "Super tower",
+  "active": true,
+  "members": [
+    {
+      "name": "Teniente Mayor",
+      "age": 29,
+      "secretIdentity": "Jean Paul Barrios",
+      "powers": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ]
+    },
+    {
+      "name": "Capitan",
+      "age": 23,
+      "secretIdentity": "Wilson Parra",
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "General",
+      "age": 66,
+      "powers": [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ],
+      "secretIdentity": "Alexander Barrios"
+    },
+    {
+      "name": "SubTeniente",
+      "age": 33,
+      "powers": [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ],
+      "secretIdentity": "julio paez"
+    },
+    {
+      "age": 44,
+      "powers": [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ],
+      "secretIdentity": "Carlos Fuentes",
+      "name": "Mayor"
+    },
+    {
+      "age": 32,
+      "powers": [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ],
+      "secretIdentity": "Thomas Jimenez",
+      "name": "Teniente"
+    },
+    {
+      "age": 42,
+      "powers": [
+        "Immortality",
+        "Heat Immunity",
+        "Inferno",
+        "Teleportation",
+        "Interdimensional travel"
+      ],
+      "secretIdentity": "Thiago Osorio",
+      "name": "Coronel"
+    }
+  ]
+}
